@@ -3,7 +3,7 @@ cask "coragent" do
   name "coragent"
   desc "CLI tool for managing Snowflake Cortex Agent deployments"
   homepage "https://github.com/jimatomo/cortex-agent-cli"
-  version "0.21.0"
+  version "0.22.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "coragent" do
   on_macos do
     on_intel do
       url "https://github.com/jimatomo/cortex-agent-cli/releases/download/v#{version}/coragent_#{version}_darwin_amd64.tar.gz"
-      sha256 "e48be3f6ba96685d01b092cc35385dc8e9a8c4ed918bc17ee69a8746320f3e08"
+      sha256 "66f2c16cf3ee1f89a4335dacdfea89f5361570c324d846c87ff951630944dc64"
     end
     on_arm do
       url "https://github.com/jimatomo/cortex-agent-cli/releases/download/v#{version}/coragent_#{version}_darwin_arm64.tar.gz"
-      sha256 "77ea56ed6898ed187dee5a907390dbd073c090d2fbe3275f84bbb842e1a2bfb9"
+      sha256 "5f9421188346a0c8732229b09f3f893fab5c162fe3ed8fc34ae94f99bd03c05a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jimatomo/cortex-agent-cli/releases/download/v#{version}/coragent_#{version}_linux_amd64.tar.gz"
-      sha256 "89274522966bc5bdde156121e0f47a39d3064cd703c76661cb3af0278daf02dc"
+      sha256 "795c3ba454a524ed716c9c1d48ccbb89398cd508b035d33828c036a7cf530930"
     end
     on_arm do
       url "https://github.com/jimatomo/cortex-agent-cli/releases/download/v#{version}/coragent_#{version}_linux_arm64.tar.gz"
-      sha256 "a8c9acadb05d7804fe13df8052f29574b096345c5c470f433c91f32be5e5f510"
+      sha256 "c447f5e08f78d14c5c3fa6979f52b0ecbce36bfca6b88ac2340414c151d497f3"
     end
   end
 
